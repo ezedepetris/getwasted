@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- selector para los botones de la barra que contiene add y delete de la activity bus(my_schedules) -->
+    <item android:state_pressed="true"><shape android:shape="rectangle">
+            <gradient android:centerColor="@color/gray_bus_grid" android:endColor="@color/gray_map_background" android:startColor="@color/gray_map_background" />
+        </shape></item>
+
+    <item android:state_pressed="false"><shape android:shape="rectangle">
+            <gradient android:centerColor="@color/gray_map_background" android:endColor="@color/gray_map_background" android:startColor="@color/gray_map_background" />
+        </shape></item>
+</selector>

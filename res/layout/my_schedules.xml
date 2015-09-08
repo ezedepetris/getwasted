@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_schedule_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_map_background"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_map_background"
+        android:orientation="horizontal" >
+
+     
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="@color/gray_title" />
+
+        <ImageButton
+            android:id="@+id/delete_schedule"
+            style="?android:attr/buttonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@@drawable/selector_button_bus"
+            android:onClick="deleteSchedule"
+            android:paddingBottom="5sp"
+            android:paddingTop="10sp"
+            android:src="@drawable/my_schedules_icon_delete"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="@color/gray_title" />
+
+        <ImageButton
+            android:id="@+id/add_schedule"
+            style="?android:attr/buttonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_bus"
+            android:onClick="addSchedule"
+            android:paddingBottom="5sp"
+            android:paddingTop="10sp"
+            android:src="@drawable/my_schedules_icon_add"
+            android:textColor="@color/dark_green"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/myShedulesHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/bus_activity_help"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/gray_button_bar_map" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="8sp" >
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top" >
+
+            <LinearLayout
+                android:id="@+id/content_line_bus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/box_my_schedules" >
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>

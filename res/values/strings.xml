@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_id">158723790945327</string>
+    <string name="app_name">unrc 2.0</string>
+    <string name="facebook_activity_comment">comentar</string>
+    <string name="facebook_activity_share">compartir</string>
+    <string name="facebook_activity_initiate">Inicia  Sesión para poder usar las opciones que brindamos</string>
+    <string name="facebook_activity_put_here_text">escribe aquí tu comentario</string>
+    <string name="facebook_activity_text_shared">ayúdanos a crecer, compartí la aplicación con todos tus conocidos</string>
+    <string name="facebook_activity_text_comment">déjanos tu comentario, publica cualquier inquietud, idea o mejora en la pagina oficial de la aplicación</string>
+    <string name="facebook_activity_loading_shared">compartiendo unrc 2.0</string>
+    <string name="facebook_activity_not_wifi">estás desconectado de wifi, conéctate para poder continuar</string>
+    <string name="facebook_activity_loading_comment">publicando en la página oficial de unrc 2.0</string>
+    <string name="facebook_activity_not_comment">ingresá algún comentario</string>
+    <string name="facebook_activity_thanks">gracias por tu aporte</string>
+    <string name="initial_activity_name">unrc</string>
+    <string name="initial_activity_number_name">2.0</string>
+    <string name="initial_activity_button_facebook">seguínos</string>
+    <string name="initial_activiy_comming">próximamente con muchos servicios para que uses</string>
+    <string name="initial_activity_career">carreras</string>
+    <string name="initial_activity_map">mapa</string>
+    <string name="initial_activity_service">servicios</string>
+    <string name="not_found_sd">inserta la tarjeta SD para poder usar esta opción</string>
+    <string name="title_standar">carreras</string>
+    <string name="map_activity_default">vista general unrc</string>
+    <string name="map_activity_first_floor">planta baja</string>
+    <string name="map_activity_second_floor">planta alta</string>
+    <string name="map_activity_first_classroom">aula</string>
+    <string name="map_activity_location_of">ubicación de</string>
+    <string name="map_activity_pavillion">pabellón</string>
+    <string name="map_activity_bitmap_worker_task_wait_plis">espere por favor</string>
+    <string name="map_activity_bitmap_worker_task_loading">cargando</string>
+    <string name="map_activity_point_bitmap_worker_task_draw_position">dibujando posición</string>
+    <string name="year_title">año</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_careers">Careers</string>
+    <string name="faculties_names">facultades</string>
+    <string name="title_career_fragment">materias</string>
+    <string name="message_correlative">esta materia no presenta correlatividades</string>
+    <string name="fragment1">Fragment1</string>
+    <string name="fragment2">Fragment2</string>
+    <string name="fragment3">Fragment3</string>
+    <string name="msj_dialog_pavilion_1">aulas del pabellon 1</string>
+    <string name="msj_dialog_pavilion_2">aulas del pabellon 2</string>
+    <string name="msj_dialog_pavilion_3">aulas del pabellon 3</string>
+    <string name="msj_dialog_more_places">mas lugares</string>
+    <string name="title_correlative">correlatividades para el cursado</string>
+    <string name="correlative_select">correlativa seleccionada</string>
+    <string name="conten_description_image_bus">horarios de la linea</string>
+    <string name="schedules">horarios</string>
+    <string name="path">recorrido</string>
+    <string name="schedule">horario</string>
+    <string name="my_schedules">mis horarios</string>
+    <string name="message_exception">este horario ya se encuentra guardado</string>
+    <string name="message_fill_fields">llene todos los campos</string>
+    <string name="message_save">horario guardado</string>
+    <string name="title_delete_dialog">borrar ?</string>
+    <string name="ok_delete_dialog">aceptar</string>
+    <string name="cancel_delete_dialog">cancelar</string>
+    <string name="add_my_schedule_line">linea</string>
+    <string name="add_my_schedule_time">horario</string>
+    <string name="add_my_schedule_day">dia</string>
+    <string name="add_my_schedule_place">lugar</string>
+    <string name="add_my_schedule_click_to_add">tocar para agregar</string>
+    <string name="add_my_schedule_click_to_place">lugar(opcional)</string>
+    <string name="add_my_schedule_save">guardar</string>
+    <string name="add_my_schedules_title">nuevo horario</string>
+    <string name="delete_my_schedules_title">borrar horario</string>
+    <string name="delete_my_schedules_select_all">seleccionar todos</string>
+    <string name="delete_my_schedules_delete">borrar</string>
+    <string name="bus_activity_delete_ok">se borro exitosamente</string>
+    <string name="bus_activity_delete_element_not_found">no hay horarios para borrar</string>
+    <string name="bus_delete_and_add_select_line">seleccione la línea</string>
+    <string name="bus_activity_help">agrega todos tus horarios personalizados fácilmente presionando + </string>
+    <string name="path_bus_go_schedule">ir al horario -> </string>
+    <string name="carrer_activity_dialog_not_show_more">no volver a mostrar </string>
+    <string name="carrer_activity_dialog_attention">¡atencion! </string>
+    <string name="carrer_activity_dialog_message_careers_not_found">estamos trabajando en la actualización de los planes de estudio; si tu carrera no aparece o encontras irregularidades no te preocupes estamos trabajando en ello. </string>
+
+    <string-array name="classroom_pavilion_1">
+        <item>anfiteatro 1</item>
+        <item>anfiteatro 2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10A</item>
+        <item>10B</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20A</item>
+        <item>20B</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+    </string-array>
+    <string-array name="classroom_pavilion_2">
+        <item>anfiteatro 1</item>
+        <item>anfiteatro 2</item>
+        <item>2</item>
+        <item>4</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>113</item>
+        <item>114</item>
+        <item>115</item>
+        <item>laboratorio 2</item>
+        <item>laboratorio 3</item>
+        <item>laboratorio 5</item>
+        <item>laboratorio 6</item>
+        <item>laboratorio 7</item>
+        <item>laboratorio 8</item>
+        <item>laboratorio 9</item>
+        <item>lupa 3</item>
+        <item>lupa 4</item>
+    </string-array>
+    <string-array name="classroom_pavilion_3">
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>112</item>
+        <item>laboratorio ingenieria</item>
+    </string-array>
+    <string-array name="more_places">
+        <item>aula Magna</item>
+        <item>aula Mayor</item>
+        <item>biblioteca estudiantil agron. y veter.</item>
+        <item>centro estudiante y fotocopiadora agron. y veter.</item>
+        <item>centro estudiante y fotocopiadora  cs. economicas (CECE)</item>
+        <item>centro estudiante y fotocopiadora cs. exactas (CECEX)</item>
+        <item>centro estudiante  y fotocopiadora  cs. humanas</item>
+        <item>centro estudiante ingeniería (CEI)</item>
+        <item>furc</item>
+        <item>fotocopiadora ingeniería</item>
+        <item>gimnasio mayor</item>
+        <item>secretaria de extencion y desarrollo</item>
+        <item>secretaria de trabajo</item>
+        <item>informacion general y guardia</item>
+        <item>planta piloto</item>
+        <item>bedelia pabellon 1 </item>
+        <item>bedelia pabellon 2 y 3 </item>
+        <item>facultad de agronomia y veterinaria</item>
+        <item>facultad de cs. economicas 2do piso</item>
+        <item>facultad de cs. exactas planta baja</item>
+        <item>facultad de ingenieria 1er piso</item>
+        <item>facultad de cs. humanas 2do piso</item>
+    </string-array>
+
+    <!-- Tabla de facultades faculty -->
+    <string name="FACULTY_TABLE ">faculty</string>
+    <string name="FACULTY_0_ID ">name_faculty_id</string>
+
+    <!-- Tabla de carreras Career -->
+    <string name="CARERR_TABLE ">career</string>
+    <string name="CAREER_0_ID ">name_career_id</string>
+    <string name="CAREER_1_YEARS ">years_c</string>
+    <string name="CAREER_2_LINK ">linkweb_c</string>
+    <string name="CAREER_3_NAMEFACULTY ">name_faculty</string>
+
+    <!-- Tabla de carreras correlativas Correlative -->
+    <string name="CORRELATIVE_TABLE ">correlative</string>
+    <string name="CORRELATIVE_0_ID_SUBJECT ">code_subject_id</string>
+    <string name="CORRELATIVE_1_ID_NAME_CAREER ">name_career_id</string>
+    <string name="CORRELATIVE_2_SUBJECT_CODE_CORRELATIVE ">code_subject_correlative</string>
+    <string name="CORRELATIVE_3_NAME_CAREER_CORRELATIVE ">name_career_correlative</string>
+    <string name="CORRELATIVE_4_CONDICTION ">condiction</string>
+
+    <!-- Tabla de carreras materias Subject -->
+    <string name="SUBJECT_TABLE ">subject</string>
+    <string name="SUBJECT_0_CODE_ID ">code_subject_id</string>
+    <string name="SUBJECT_2_NAME ">name_subject</string>
+
+    <!-- Tabla de carreras have -->
+    <string name="HAVE_TABLE ">have</string>
+    <string name="HAVE_0_NAME_CAREER ">name_career</string>
+    <string name="HAVE_1_CODE_SUBJECT">code_subject</string>
+    <string name="HAVE_2_DESCRIPTION">description_s</string>
+    <string name="HAVE_3_YEAR">year_s</string>
+
+    <!-- Adicional para las consultas -->
+    <string name="ADDITIONAL_CODE_SUBJECT">code_subject</string>
+    <string name="ADDITIONAL_NAME_SUBJECT ">name_subject</string>
+
+    <string-array name="classroom_pavilion_1_up_stairs">
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20A</item>
+        <item>20B</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+    </string-array>
+    <string-array name="classroom_pavilion_2_up_stairs">
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>113</item>
+        <item>114</item>
+        <item>115</item>
+    </string-array>
+    <string-array name="classroom_pavilion_3_up_stairs">
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>112</item>
+        <item>laboratorio ingenieria</item>
+    </string-array>
+    <string-array name="more_places_general">
+        <item>aula magna</item>
+        <item>aula mayor</item>
+        <item>gimnasio mayor</item>
+        <item>informacion general y guardia</item>
+    </string-array>
+
+    <string name="bus_button_one">lunes a viernes</string>
+    <string name="bus_button_two">fer, sab y dom</string>
+    <string name="title_activity_delete_schedule">DeleteSchedule</string>
+
+</resources>

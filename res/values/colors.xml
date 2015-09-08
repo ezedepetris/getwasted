@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_blue">#A8DFF4</color>
+    <color name="light_green">#D3E992</color>
+    <color name="light_red">#FFAFAF</color>
+    <color name="light_yellow">#FFECC0</color>
+    <color name="dark_blue">#0099CC</color>
+    <color name="dark_green">#669900</color>
+    <color name="dark_red">#CC0000</color>
+    <color name="drk_yellow">#FF8A00</color>
+    <color name="gray_title">#838b83</color>
+    <color name="text_list_view">#019875</color>
+    <color name="green_1_light_panton">#00A35C</color>
+    <color name="button_bar_selected">#999999</color>
+    <color name="gray_button_bar_map">#323232</color>
+    <color name="gray_light_button_bar_map">#837f80</color>
+    <color name="gray_bus_grid">#dcdcdc</color>
+    <color name="gray_map_background">#F4F3F0</color>
+
+</resources>

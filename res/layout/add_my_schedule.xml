@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_map_background" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_map_background"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/add_my_schedules_title"
+            android:textColor="@color/dark_green"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:text="@string/add_my_schedule_line"
+            android:textColor="@color/gray_button_bar_map"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/add_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:editable="false"
+            android:ems="10"
+            android:focusableInTouchMode="false"
+            android:hint="@string/add_my_schedule_click_to_add"
+            android:paddingBottom="15sp"
+            android:textColorHint="@color/gray_light_button_bar_map"
+            tools:ignore="Deprecated" >
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_my_schedule_time"
+            android:textColor="@color/gray_button_bar_map"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/add_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:editable="false"
+            android:ems="10"
+            android:focusableInTouchMode="false"
+            android:hint="@string/add_my_schedule_click_to_add"
+            android:paddingBottom="15sp"
+            android:textColorHint="@color/gray_light_button_bar_map"
+            tools:ignore="Deprecated" >
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_my_schedule_day"
+            android:textColor="@color/gray_button_bar_map"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/add_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:editable="false"
+            android:ems="10"
+            android:focusableInTouchMode="false"
+            android:hint="@string/add_my_schedule_click_to_add"
+            android:paddingBottom="15sp"
+            android:textColorHint="@color/gray_light_button_bar_map"
+            tools:ignore="Deprecated" >
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_my_schedule_place"
+            android:textColor="@color/gray_button_bar_map"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/add_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:hint="@string/add_my_schedule_click_to_place"
+            android:paddingBottom="15sp"
+            android:textColorHint="@color/gray_light_button_bar_map"
+            tools:ignore="Deprecated" >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/gray_map_background"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:onClick="saveLineSchedule"
+                android:text="@string/add_my_schedule_save" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

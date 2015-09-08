@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- se usa para dar recuadro al texto en materias  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!-- Color del ractangulo (shape) -->
+    <gradient
+        android:angle="270"
+        android:centerColor="#e3e3e3"
+        android:endColor="#ffffff"
+        android:startColor="#FFFFFF" />
+
+    <!-- Borde de el shape : borde de rectangulo -->
+    <stroke
+        android:width="3dp"
+        android:color="#838b83" />
+
+    <padding
+        android:bottom="8dp"
+        android:left="5dp"
+        android:right="5dp"
+        android:top="8dp" />
+
+    <!-- Esquina de el sahpe (rectangulo) -->
+    <corners android:radius="5dp" />
+
+</shape>

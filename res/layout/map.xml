@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F3F0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="0dp" >
+
+        <ImageButton
+            android:id="@+id/buttonSearchClassRoomPavilion1"
+            style="@style/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_bar"
+            android:onClick="selectedPavilion1"
+            android:src="@drawable/ic_action_icon_p1"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="@color/gray_title" />
+
+        <ImageButton
+            android:id="@+id/buttonSearchClassRoomPavilion2"
+            style="@style/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_bar"
+            android:onClick="selectedPavilion2"
+            android:src="@drawable/ic_action_icon_p2"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="@color/gray_title" />
+
+        <ImageButton
+            android:id="@+id/buttonSearchClassRoomPavilion3"
+            style="@style/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_bar"
+            android:onClick="selectedPavilion3"
+            android:src="@drawable/ic_action_icon_p3"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="@color/gray_title" />
+
+        <ImageButton
+            android:id="@+id/morePlaces"
+            style="@style/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_bar"
+            android:onClick="selectedMorePlaces"
+            android:src="@drawable/ic_action_icon_more"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/information_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <training.map.ScaleImageView
+            android:id="@+id/imageMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

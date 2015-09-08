@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Es la vista para las facultadas,carreras, años  y lista de materias del paqute training.careers  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_map_background"
+    android:orientation="vertical"
+    android:padding="8dip" >
+
+    <!-- #009b77 panton 2013 -->
+
+    <TextView
+        android:id="@+id/title_standar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dip"
+        android:text="@string/title_standar"
+        android:textColor="@color/gray_title"
+        android:textSize="@dimen/font_medium" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@drawable/list_selector"
+        android:textFilterEnabled="true" >
+    </ListView>
+
+</LinearLayout>

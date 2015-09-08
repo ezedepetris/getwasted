@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_bar_bus_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_map_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_schedules"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="schedules"
+            android:text="@string/schedules"
+            android:textColor="@color/gray_button_bar_map"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="@color/gray_title" />
+
+        <Button
+            android:id="@+id/button_my_schedules"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="mySchedules"
+            android:text="@string/my_schedules"
+            android:textColor="@color/gray_button_bar_map"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <!--
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/layout_one"
+            layout="@layout/bus_grid_view" />
+
+        <include
+            android:id="@+id/layout_two"
+            layout="@layout/my_schedules" />
+    </LinearLayout>
+    -->
+
+</LinearLayout>

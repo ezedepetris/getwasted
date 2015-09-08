@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_map_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="@string/delete_my_schedules_title"
+        android:textColor="@color/dark_red"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:text="@string/add_my_schedule_line"
+        android:textColor="@color/gray_button_bar_map"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/select_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:editable="false"
+        android:ems="10"
+        android:hint="@string/add_my_schedule_click_to_add"
+        android:textColorHint="@color/gray_light_button_bar_map" >
+
+        <requestFocus />
+    </EditText>
+
+    <ListView
+        android:id="@+id/delete_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/gray_map_background" >
+    </ListView>
+
+    <LinearLayout
+        style="@android:style/ButtonBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_map_background"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/select_all_schedules"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="selectAllSchedules"
+            android:text="@string/delete_my_schedules_select_all" />
+
+        <Button
+            android:id="@+id/delete_schedules"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="deleteSchedules"
+            android:text="@string/delete_my_schedules_delete" />
+    </LinearLayout>
+
+</LinearLayout>
